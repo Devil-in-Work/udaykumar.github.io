@@ -94,3 +94,9 @@
                 });
             }, 100);
           });
+
+
+          //toast
+        $('#submit').click(function(){
+          $('.toast').toast('show');
+        });
